@@ -1,0 +1,13 @@
+---
+title: "Test_rmd"
+author: "This is MC CHIH"
+date: "2018/9/24"
+output: html_document
+---
+
+This is MC CHIH!!!!
+I'm rap king~~~
+
+```{r}
+print("MC CHIH")
+```
