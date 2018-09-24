@@ -1,0 +1,14 @@
+---
+title: "chih"
+output: html_document
+---
+I'm Chih.
+
+
+```{r}
+z=c()
+for(i in 1:10){
+  z[i]=i^2+i
+}
+print(z)
+```
