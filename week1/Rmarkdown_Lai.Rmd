@@ -1,0 +1,47 @@
+---
+title: "Lai_Rmarkdown"
+author: "Lai"
+date: ""
+output: html_document
+---
+# Learing Markdown Code
+
+### ordered list:  
+1. create a list
+2. this is a list
+
+### unordered list:
+* this is unorder list
+* this is unorder list
+    +  nested list!  
+    +  nested list!   
+
+### latex:
+$$
+e^{ix} = cos(x)+isin(x)
+$$
+
+### code chunk : 
+
+```{r warning=FALSE}
+library(magrittr)
+rnorm(300) %>% `^`(2) %>% density() %>% plot("chisq")
+```
+
+
+## bonus:  
+
+### images:
+
+![](img/doge.jpg)
+
+### maps:  
+
+```{r warning=FALSE}
+library(leaflet)
+map <- leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lng=121.574826,lat=24.9874003,popup="偉哉大商院")
+map  
+```
+
