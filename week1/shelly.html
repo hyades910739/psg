@@ -9,6 +9,7 @@
     	background: #000 url(minwt_bg.jpg) center center fixed no-repeat;
     	-moz-background-size: cover;
     	background-size: cover;
+    	height: 860px;
 	}
 
 	.picture{
@@ -19,22 +20,42 @@
 		right:10;*/
 		
 		position: relative;
-		height: 720px;
+		height: 100%;
 		overflow: hidden;
 		
 	}
 	#pic{
 		/*max-width: 120%;*/
-		margin:-300px 0 0 0 ;
+		margin:-320px 0 0 0 ;
 	
 	}
 
 	.text{
+		display: inline-block;
+		width:550px;
+		padding-left: 50px;
 		position: absolute;
-		padding-left:100px;
+		top:300px;
+		left:80px;
+		/*background-color: orange;
+		background-opacity: 0.1;*/
+		
 	}
 
-	
+	h1,p{
+		color: white;
+	}
+
+	h1{
+		font-size: 70px;
+		text-shadow: black 0.1em 0.1em 0.2em;
+		margin-bottom: -15px;
+	}
+
+	p{
+		font-size: 20px;
+		text-shadow: black 0.1em 0.1em 0.2em;
+	}
 
 </style>
 	</head>
@@ -43,11 +64,13 @@
 	
 	<div class = "picture">
 		<img id="pic" src="img/shelly.JPG">
+	 
+	  	<div class = "text">
+	 		<h1>Hello! I'm Shelly</h1>
+	 		<p>This is my personal page.</p>
 	 </div>
-	 <div class = "text">
-	 	<h1>Hello! I'm Shelly</h1>
-	 	<p>This is my personal page.</p>
 	 </div>
+
 	 
 	
 </body>
