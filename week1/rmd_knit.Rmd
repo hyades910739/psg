@@ -1,0 +1,14 @@
+---
+title: "nikki"
+author: "Code"
+date: "2018¦~9¤ë24¤é"
+output: html_document
+---
+### Assignment is done!
+### Time to go home!
+### So exhausted...
+
+```{r}
+x = rnorm(100,0,1)
+plot(x)
+```
