@@ -172,7 +172,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 1,
    "metadata": {},
    "outputs": [
     {
@@ -190,54 +190,6 @@
     "a = [1,2,3,4]\n",
     "for i in reversed(a):\n",
     "    print(i)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 28,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "1\n",
-      "2\n",
-      "3\n",
-      "4\n",
-      "5\n",
-      "5\n",
-      "4\n",
-      "3\n",
-      "2\n",
-      "1\n"
-     ]
-    }
-   ],
-   "source": [
-    "class Countdown:\n",
-    "    def __init__(self, start):\n",
-    "        self.start = start\n",
-    "    \n",
-    "    # Forward iterator\n",
-    "    def __iter__(self): \n",
-    "        n = self.start\n",
-    "        while n > 0: \n",
-    "            yield n\n",
-    "            n -= 1\n",
-    "    \n",
-    "    # Reverse iterator\n",
-    "    def __reversed__(self): \n",
-    "        n=1\n",
-    "        while n <= self.start: \n",
-    "            yield n\n",
-    "            n += 1\n",
-    "\n",
-    "for rr in reversed(Countdown(5)): \n",
-    "    print(rr)\n",
-    "\n",
-    "for rr in Countdown(5): \n",
-    "    print(rr)"
    ]
   },
   {
