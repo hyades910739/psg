@@ -1,0 +1,8 @@
+1. 國泰
+2. Python Ch7
+3. TensorFlow 線上教學
+4. 老師paper (選三個資料，用不同dist. function來做分群/ Entropy???)
+http://magazine.amstat.org/blog/2016/01/01/data-science-the-evolution-or-the-extinction-of-statistics/
+http://magazine.amstat.org/blog/2015/11/01/statnews2015/
+
+
