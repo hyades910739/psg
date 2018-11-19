@@ -5,5 +5,6 @@
 3. quest3 : python cookbook ch2 & crawler in py  (Ping & Hyades)  
 4. quest4 : python cookbook ch4 & data processing (Kevin & Nikki)  
 5. quest5 : python cookbook ch5 & data visualization (Tchen & Louis)  
-6. quest6 : ???  
+6. quest6 : python cookbook ch8.1~ch8.10
+7. quest6 : ???  
 
